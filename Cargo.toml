@@ -3,7 +3,7 @@ name = "libomni"
 description = "A utility library for Omni-forge and related programs"
 authors = ["Omni-Forge <https://github.com/Omni-Forge>","Caznix <https://github.com/Caznix>"]
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 license = "GPL-3.0"
 [dependencies]
 anyhow = "1.0.94"
