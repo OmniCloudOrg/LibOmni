@@ -36,7 +36,7 @@ pub struct Org {
     pub updated_at: DateTime<Utc>,
 }
 
-#[derive(Debug, sqlx::FromRow, Serialize)]
+#[derive(Debug, sqlx::FromRow, Serialize, Deserialize)]
 pub struct Region {
     pub id: i64,
     pub name: String,
