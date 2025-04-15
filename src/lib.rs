@@ -3,3 +3,4 @@
 /// These types are used across the platform to ensure consistency and type safety.
 
 pub mod types;
+pub use chrysalis_rs as omni_log;
