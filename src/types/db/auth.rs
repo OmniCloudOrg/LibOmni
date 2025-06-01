@@ -1,4 +1,4 @@
-pub use super::v1::models::user::User;
+pub use super::v1::user::User;
 use rocket::http::Status;
 use rocket::request::{FromRequest, Outcome, Request};
 use rocket::serde::{Deserialize, Serialize};
