@@ -2,7 +2,7 @@
 name = "libomni"
 description = "A utility library for Omni-forge and related programs"
 authors = ["OmniCloud <https://github.com/OmniCloudOrg>","Caznix <https://github.com/Caznix>"]
-version = "0.2.4"
+version = "0.3.0"
 edition = "2021"
 license = "GPL-3.0"
 
