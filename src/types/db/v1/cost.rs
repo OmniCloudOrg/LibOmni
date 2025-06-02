@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 use chrono::{DateTime, Utc};
-use sqlx::{Row, FromRow};
+use sqlx::FromRow;
 
 /// Represents a cost metric entry in the system.
 #[derive(Debug, FromRow, Serialize, Deserialize, Clone)]

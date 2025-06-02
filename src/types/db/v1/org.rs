@@ -1,5 +1,5 @@
-use serde::{Deserialize, Serialize};
-use chrono::{DateTime, NaiveDateTime, Utc};
+use serde::Serialize;
+use chrono::{DateTime, Utc};
 
 #[derive(Debug, sqlx::FromRow, Serialize)]
 pub struct Org {

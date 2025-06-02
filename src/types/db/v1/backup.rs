@@ -1,7 +1,6 @@
 use serde::{Deserialize, Serialize};
 use chrono::{DateTime, Utc};
 use serde_json::Value;
-use sqlx::Row;
 
 #[derive(Debug, sqlx::FromRow, Serialize, Deserialize)]
 pub struct Backup {

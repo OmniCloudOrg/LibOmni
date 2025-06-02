@@ -1,6 +1,5 @@
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use chrono::{DateTime, Utc};
-use sqlx::Row;
 
 #[derive(Debug, sqlx::FromRow, Serialize)]
 pub struct Build {

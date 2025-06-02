@@ -1,8 +1,6 @@
-use serde::{Deserialize, Serialize};
-use chrono::{DateTime, NaiveDateTime, Utc};
+use serde::Serialize;
+use chrono::{DateTime, Utc};
 use super::region::Region;
-use serde_json::Value;
-use sqlx::Row;
 
 #[derive(Debug, sqlx::FromRow, Serialize)]
 pub struct Provider {

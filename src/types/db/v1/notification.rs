@@ -1,7 +1,5 @@
 use serde::{Deserialize, Serialize};
-use chrono::{DateTime, NaiveDateTime, Utc};
-use serde_json::Value;
-use sqlx::Row;
+use chrono::{DateTime, Utc};
 
 #[derive(Debug, sqlx::FromRow, Serialize, Deserialize)]
 pub struct UserNotification {

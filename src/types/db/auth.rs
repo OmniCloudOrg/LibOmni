@@ -1,15 +1,6 @@
 pub use super::v1::user::User;
-use rocket::http::Status;
-use rocket::request::{FromRequest, Outcome, Request};
 use rocket::serde::{Deserialize, Serialize};
-use sqlx::MySqlPool;
-use std::sync::Arc;
-use jsonwebtoken::{decode, encode, DecodingKey, EncodingKey, Header, Validation, Algorithm};
-use rocket::State;
-use chrono::{DateTime, Utc, Duration};
-use serde_json::json;
-use rocket::serde::json::Json;
-use rocket::{post, get, routes};
+
 
 
 // JWT claims struct
